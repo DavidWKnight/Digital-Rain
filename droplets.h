@@ -7,8 +7,8 @@
 #include <time.h>
 #include <string.h>
 #define SHORT_DROPLET //use short for droplet struct, saves memory
-//#define TASTE_THE_RAINBOW //droplet trail color dependent on length
-                          //keep terminal height to >=24 rows
+//#define TASTE_THE_RAINBOW //droplet trail color depends on length
+                            //keep terminal height to >=24 rows
 
 #ifdef SHORT_DROPLET
 struct droplet{
