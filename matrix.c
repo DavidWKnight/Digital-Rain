@@ -65,9 +65,11 @@ int main(int argc, char *argv[]){
                 exit(0);
                 break;
             case 'c':
-                multicolor_trail++;
-                if(!(multicolor_trail % 3)){
+                if(multicolor_trail){
                     multicolor_trail = 0;
+                }
+                else{
+                    multicolor_trail = 1;
                 }
                 break;
             case 'v':
